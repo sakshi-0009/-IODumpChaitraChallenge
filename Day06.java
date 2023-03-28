@@ -1,3 +1,5 @@
+// Convert given temperature from farhrnight to celcius
+
 package ChaitraChallenge;
 
 import java.util.Scanner;
