@@ -2,14 +2,16 @@
 
 package ChaitraChallenge;
 
-import java.util.Scanner;
+import java.io.*;
 
 public class Day07 {
 	
-	public static void main(String[] args) {
-		 Scanner sc = new Scanner(System.in);
-		 System.out.println("Enter the Number : ");
-		 int n = sc.nextInt();
+	public static void main(String[] args) throws IOException {
+		InputStreamReader isr = new InputStreamReader(System.in);
+		BufferedReader br = new BufferedReader(isr);
+		
+		System.out.println("Enter the Number : ");
+		int n = Integer.parseInt(br.readLine());
 		 
 		 int count = 0;
 			for(int i=1;i<=n;i++) {
