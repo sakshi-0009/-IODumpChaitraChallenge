@@ -7,8 +7,7 @@ public class Day09 {
 
 	public static void main(String[] args)throws IOException {
 		
-		InputStreamReader isr = new InputStreamReader(System.in);
-		BufferedReader br = new BufferedReader(isr);
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		System.out.println("Enter the Number : ");
 		int N = Integer.parseInt(br.readLine());
