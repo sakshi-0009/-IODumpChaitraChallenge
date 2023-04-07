@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Day16 {
 
-	static int N = 10;
+    static int N = 10;
     static int []sequence = new int[N];
     public static void sort(){
         System.out.println("The Sequence is: ");
