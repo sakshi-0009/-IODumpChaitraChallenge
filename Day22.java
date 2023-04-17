@@ -1,3 +1,5 @@
+//Write a program to find first non-repeating character in a string:
+
 package ChaitraChallenge;
 
 import java.io.*;
