@@ -1,4 +1,4 @@
-//Implement an algorithm to find the nth Fibonacci number:
+//Implement a function to check if a given string contains a valid email address:
 
 package ChaitraChallenge;
 
