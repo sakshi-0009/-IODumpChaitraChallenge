@@ -5,8 +5,7 @@ package ChaitraChallenge;
 import java.util.*;
 
 public class Day26 {
-	static int findMinInsertions(char str[], int l,
-												int h){
+	static int findMinInsertions(char str[], int l,int h){
 		if (l > h) return Integer.MAX_VALUE;
 		if (l == h) return 0;
 		if (l == h - 1) return (str[l] == str[h])? 0 : 1;
